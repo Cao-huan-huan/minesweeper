@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  height: 48px;
+  background-color: var(--header-bar-bg);
+  border-bottom: 1px solid var(--header-bar-border);
+  box-shadow: var(--shadow-sm);
+  user-select: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background-color var(--transition-fast);
+}
+
+.menuButton:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.menuButton:active {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.resetButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-light);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.resetButton:hover {
+  background-color: var(--cell-hover);
+  border-color: var(--accent-color);
+}
+
+.resetButton:active {
+  transform: scale(0.95);
+}
+
+.statusIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--text-primary);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background-color: var(--bg-light);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.counterLabel {
+  font-size: 14px;
+}
+
+.counterValue {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Ubuntu Mono", monospace;
+  color: var(--text-primary);
+  min-width: 42px;
+  text-align: right;
+}
+
+.fullscreenButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background-color var(--transition-fast);
+}
+
+.fullscreenButton:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.fullscreenButton:active {
+  background-color: rgba(0, 0, 0, 0.12);
+}

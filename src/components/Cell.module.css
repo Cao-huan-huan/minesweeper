@@ -1,0 +1,52 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cell-unrevealed);
+  border: 1px solid var(--cell-unrevealed-border);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+  user-select: none;
+}
+
+.cell:hover:not(.revealed) {
+  background-color: var(--cell-hover);
+  border-color: var(--accent-color);
+}
+
+.cell:active:not(.revealed) {
+  transform: scale(0.95);
+}
+
+.revealed {
+  background-color: var(--cell-revealed);
+  border-color: var(--cell-revealed-border);
+}
+
+.revealed:hover {
+  background-color: var(--cell-revealed);
+  border-color: var(--cell-revealed-border);
+  transform: none;
+}
+
+.flagged {
+  background-color: var(--cell-flagged);
+}
+
+.flagIcon {
+  color: var(--accent-color);
+}
+
+.mine {
+  background-color: var(--cell-mine);
+}
+
+.exploded {
+  background-color: var(--cell-exploded);
+}
+
+.number {
+  font-weight: 700;
+  font-family: "Ubuntu", "Cantarell", sans-serif;
+  line-height: 1;
+}
