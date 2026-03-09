@@ -2,6 +2,14 @@
 
 一个使用 React + TypeScript + Vite 构建的经典扫雷游戏。
 
+## 🎮 游戏截图
+
+### 游戏界面
+![游戏界面](./screenshots/game-interface.png)
+
+### 游戏胜利
+![游戏胜利](./screenshots/game-win.png)
+
 ## 技术栈
 
 - **React 19** - 前端框架
@@ -85,13 +93,14 @@ mines/
 │   │   └── index.ts         # TypeScript 类型定义
 │   ├── App.tsx              # 主应用组件
 │   └── main.tsx             # 入口文件
+├── screenshots/            # 游戏截图
 ├── index.html               # HTML 模板
 ├── vite.config.ts           # Vite 配置
 ├── tsconfig.json            # TypeScript 配置
 └── package.json             # 项目配置
 ```
 
-## 游戏玩法
+## 🎯 游戏玩法
 
 1. **揭开格子**：左键点击格子揭开它
 2. **标记旗帜**：右键点击格子放置/移除旗帜
@@ -99,7 +108,7 @@ mines/
 4. **获胜条件**：揭开所有非地雷格子
 5. **失败条件**：点击到地雷格子
 
-## 难度设置
+## 📊 难度设置
 
 | 难度 | 行数 | 列数 | 地雷数 |
 |------|------|------|--------|
@@ -108,6 +117,6 @@ mines/
 | 困难 | 16 | 30 | 99 |
 | 自定义 | 自定义 | 自定义 | 自定义 |
 
-## 许可证
+## 📝 许可证
 
 MIT
