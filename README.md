@@ -5,10 +5,10 @@
 ## 🎮 游戏截图
 
 ### 游戏界面
-![游戏界面](./screenshots/game-interface.png)
+![游戏界面](./screenshots/首页.png)
 
 ### 游戏胜利
-![游戏胜利](./screenshots/game-win.png)
+![游戏胜利](./screenshots/胜利.png)
 
 ## 技术栈
 
